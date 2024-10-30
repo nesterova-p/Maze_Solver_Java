@@ -1,37 +1,32 @@
-## Cel projektu
+## Project Goal
 
-Projekt ma na celu opracowanie programu w języku Java z graficznym interfejsem użytkownika wykorzystującym technologię Swing. Program umożliwia wczytywanie labiryntów z plików tekstowych i binarnych, znajdowanie najkrótszej ścieżki od punktu wejścia do wyjścia oraz zapisywanie labiryntu z rozwiązaniem lub bez niego.
+The goal of this project is to develop a Java program with a graphical user interface using the Swing technology. The program allows for loading mazes from text and binary files, finding the shortest path from the entrance to the exit, and saving the maze with or without a solution.
 
-## Funkcje programu
+## Program Features
 
-- **Panel narzędziowy**: Interfejs zawiera panel, który umożliwia manipulację labiryntem, w tym zmianę punktu wejścia i wyjścia.
-- **Prezentacja labiryntu i ścieżki**: Graficzne wyświetlenie wczytanego labiryntu oraz znalezionej ścieżki.
-- **Zapisywanie do PNG**: Możliwość zapisu labiryntu (z rozwiązaniem i bez) jako obrazu w formacie PNG.
+- **Toolbar Panel**: The interface includes a toolbar panel that enables maze manipulation, including changing the entrance and exit points.
+- **Maze and Path Display**: Graphical display of the loaded maze and the identified path.
+- **Saving to PNG**: The ability to save the maze (with or without a solution) as an image in PNG format.
 
-## Obsługa plików binarnych
+## Binary File Handling
 
-Program umożliwia wczytywanie i zapisywanie labiryntów w postaci binarnej, co wymaga prawidłowego przetwarzania danych zgodnie ze specyfikacją formatu.
+The program allows for loading and saving mazes in binary format, requiring correct data processing according to the specified format.
 
-## Kompilacja i uruchomienie
+## Compilation and Execution
 
-Aby uruchomić aplikację, należy przejść do katalogu `out/artifacts/Maze_JAVA_jar` i dwukrotnie kliknąć plik `Maze_JAVA.jar`.
+To run the application, navigate to the `out/artifacts/Maze_JAVA_jar` directory and double-click the `Maze_JAVA.jar` file.
 
-## Przykładowe wywołania 
-![wynik1](https://github.com/user-attachments/assets/77eeea9d-a98a-401b-bf79-059dc2e1bf83)
-
----
-
-![wynik3](https://github.com/user-attachments/assets/b5888179-d27f-410b-a149-cdd67254ec32)
+## Sample Output
+![Result 1](https://github.com/user-attachments/assets/77eeea9d-a98a-401b-bf79-059dc2e1bf83)
 
 ---
 
-![wynik4](https://github.com/user-attachments/assets/286c4474-e63b-4e66-94e8-5a68de349967)
+![Result 2](https://github.com/user-attachments/assets/b5888179-d27f-410b-a149-cdd67254ec32)
 
 ---
 
-![wynik2](https://github.com/user-attachments/assets/30faa906-5377-4881-8964-3e9de4ad5bde)
+![Result 3](https://github.com/user-attachments/assets/286c4474-e63b-4e66-94e8-5a68de349967)
 
+---
 
-
-
-
+![Result 4](https://github.com/user-attachments/assets/30faa906-5377-4881-8964-3e9de4ad5bde)
